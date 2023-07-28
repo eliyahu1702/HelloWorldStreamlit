@@ -14,10 +14,10 @@ st.write(pd.DataFrame({
 st.write(dict)
 st.write('Hello, *World!* :sunglasses:')
 df = pd.DataFrame(
-    np.random.randn(200, 3),
-    columns=['a', 'b', 'c'])
+    np.random.randn(200, 4),
+    columns=['a', 'b', 'c','d'])
 
 c = alt.Chart(df).mark_circle().encode(
-    x='a', y='b', size='c', color='c', tooltip=['a', 'b', 'c'])
+    x='a', y='b', size='c', color='d', tooltip=['a', 'b', 'c'])
 st.write(c)
 
