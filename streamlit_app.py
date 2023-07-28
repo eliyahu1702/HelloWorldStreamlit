@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import altair as alt
+import requests
 
 
 dict = {"a": "alpha", "o": "omega", "g": "gamma"}
