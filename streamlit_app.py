@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import altair as alt
-import ydata_profiling
+import pandas_profiling
 from streamlit_pandas_profiling import st_profile_report
 
 # url = "https://api.polygon.io/v2/aggs/ticker/AAPL/range/1/day/2023-01-09/2023-01-09?apiKey=3DpS4ivuJ1bempfR2_KN8lcboNLDUZMQ"
